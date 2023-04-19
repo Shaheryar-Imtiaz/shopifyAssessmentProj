@@ -62,6 +62,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "dotenv-rails"
 end
 
 group :test do
@@ -72,4 +73,3 @@ group :test do
 end
 
 gem "shopify_app", "~> 21.2"
-gem "dotenv-rails"
